@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student marks sheet</title>
+	<script type="text/javascript" src="StudentMarksCalculation.js"></script>
+	<link rel="stylesheet" type="text/css" href="StudentMarksTableStyles.css">
+	 
+	 
+</head>
+<body>
+
+<table id="studentstable">
+	<tr>
+		<th>Name</th>
+		<th>Maths</th>
+		<th>Physics</th>
+		<th>Chemistry</th>
+		<th>Total</th>
+		<th>Average</th>
+		<th>Grade</th>
+	</tr>
+	<tr>
+		<td>Suresh</td>
+		<td>45</td>
+		<td>35</td>
+		<td>65</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Ramesh</td>
+		<td>65</td>
+		<td>25</td>
+		<td>85</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Prasad</td>
+		<td>55</td>
+		<td>30</td>
+		<td>50</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Kiran</td>
+		<td>65</td>
+		<td>75</td>
+		<td>85</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+
+<p id="note">Click the below button to get stundent grades</p>
+
+<!--Invoke calculateGrades function of external javascript file to get student grades -->
+<input type="button" name="calculate" id="btnCalculate" value="Calculate Score" 
+		onclick="calculateGrades();">
+
+</body>
+</html>

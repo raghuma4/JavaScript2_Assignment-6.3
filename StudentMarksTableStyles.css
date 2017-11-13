@@ -1,0 +1,44 @@
+ 		
+ 		/*deine a style for table, th and td */
+		table
+		{
+			border-collapse: collapse;
+			margin-top: 20px;
+			margin-left: 20px;
+		}
+		table, th, td
+		{
+			border: 1px solid black;
+		}
+		th
+		{
+			background-color: orange;
+			padding: 5px;
+		}
+		td
+		{
+			text-align: center;
+			padding: 5px;
+		}
+
+		/* style for calculate scores button */
+		input[type=button]
+		{
+			background-color: #4CAF50;
+			color: white;
+			font-size: 20px;
+			padding: 10px 15px;
+			min-width: 120px;
+			margin-top: 10px;
+			margin-left: 20px;
+			border:none;
+		}
+
+		/* Style for paragraph with id note */
+		#note
+		{
+			font-size: 18px;
+			margin: 15px 20px;
+			color: blue;
+			font-family: sans-serif;
+		}
